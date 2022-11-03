@@ -110,19 +110,25 @@ header li :hover{
 
 background-color:#4A5568;
 color:white;
+padding-top: 20px;
+padding-bottom: 100px;
+
 }
 .testing .container{
-    display: flex;
-    
+    display: flex;    
    align-items: center;
 
 }
 
 .testing .cta{
+    text-align: center;
     background-color: #48BB78;
     border-radius: 5px; 
     flex: 0 0 100px;
-    padding: 5px;  
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin: 10px; 
 }
 .testing .btn{
     outline:none;
@@ -134,7 +140,6 @@ color:white;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: 10px
 }
 
@@ -146,13 +151,13 @@ color:white;
     
 }
 .stories img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 100%;
-    margin: 10px; 
+    margin: 50px; 
 }
 .stories a{
-
+    text-decoration: none;
     color: #5A67D8;
     font-size: 18px;
 
@@ -161,27 +166,30 @@ color:white;
 .newsletter {
 background-color: #48BB78;
 color: white;
-padding-bottom: 10px;
+padding-bottom: 5px;
 }
 .newsletter .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     
 }
 .newsletter button{
 background-color: #4A5568;
 color: white;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 5px;
+border: none;
 }
 
 .newsletter form{
-
+    padding-top: 5px;
     display: flex;
     justify-content: center;
 }
-.newsletter > div{
-    margin: 5px;
-}
+
 .newsletter .form-group{
 
     margin: 3px;
